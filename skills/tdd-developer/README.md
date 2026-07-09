@@ -1,13 +1,11 @@
 # tdd-developer 스킬 사용법
 
-이 폴더의 [tdd-developer.md](./tdd-developer.md)는 언어·프레임워크에 무관한 범용 TDD 개발 스킬입니다. `Claude`뿐 아니라 `ChatGPT`, `Gemini` 등 다른 AI 에이전트에서도 그대로 사용할 수 있습니다.
+이 폴더의 [tdd-developer.md](./tdd-developer.md)는 언어·프레임워크·특정 AI 에이전트에 종속되지 않는 범용 TDD 개발 스킬입니다. 어떤 AI 도구를 쓰든 이 문서 하나만 지침으로 붙여넣으면 됩니다.
 
-같은 내용이 Claude Code용으로는 [../../.claude/skills/tdd-developer/SKILL.md](../../.claude/skills/tdd-developer/SKILL.md)에도 있으며, Claude Code에서는 `/tdd-developer`로 바로 호출됩니다. 이 폴더의 버전은 다른 도구에 붙여넣기 위한 사본입니다. 스킬 내용을 수정할 때는 두 파일을 함께 갱신하세요.
+## Claude / Claude Code
 
-## Claude Code
-
-- 이미 `.claude/skills/tdd-developer/SKILL.md`에 있어 별도 설치 없이 이 저장소 안에서 자동 인식됩니다.
-- 대화에서 "TDD로 개발해줘"라고 요청하거나, 관련 작업(신규 기능/버그 수정)을 시키면 자동으로 적용됩니다.
+- 대화 시작 시 파일 내용을 붙여넣거나, 프로젝트 규칙 파일에 포함시켜 사용합니다.
+- "TDD로 개발해줘"라고 요청하거나, 관련 작업(신규 기능/버그 수정)을 시키면 이 지침에 따라 진행하도록 합니다.
 
 ## ChatGPT
 
