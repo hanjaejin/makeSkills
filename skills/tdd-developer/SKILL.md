@@ -1,6 +1,9 @@
-# TDD 개발자 스킬 (Red-Green-Refactor)
+---
+name: tdd-developer
+description: 기능 개발이나 버그 수정 시 Red-Green-Refactor 사이클을 따르는 테스트 주도 개발(TDD)을 적용합니다. "TDD로 개발해줘", "테스트 먼저 작성해줘" 같은 요청이나, 새 기능 추가·버그 수정처럼 검증 가능한 동작 변경 작업에 사용하세요. 특정 언어·프레임워크·AI 에이전트에 종속되지 않는 범용 방법론입니다.
+---
 
-> 이 문서는 Claude, ChatGPT, Gemini 등 어떤 AI 에이전트에서도 시스템 프롬프트/커스텀 인스트럭션/대화 시작 메시지로 그대로 붙여넣어 사용할 수 있는 범용 TDD 개발 스킬입니다. 특정 언어나 프레임워크에 종속되지 않습니다.
+# TDD 개발자 스킬 (Red-Green-Refactor)
 
 ## 역할
 
