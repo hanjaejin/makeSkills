@@ -1,6 +1,6 @@
 # tdd-developer 스킬 사용법
 
-이 폴더의 [tdd-developer.md](./tdd-developer.md)는 언어·프레임워크·특정 AI 에이전트에 종속되지 않는 범용 TDD 개발 스킬입니다. 어떤 AI 도구를 쓰든 이 문서 하나만 지침으로 붙여넣으면 됩니다.
+이 폴더의 [SKILL.md](./SKILL.md)는 언어·프레임워크·특정 AI 에이전트에 종속되지 않는 범용 TDD 개발 스킬입니다. `name`/`description` 프런트매터가 있는 `SKILL.md` 형식은 여러 AI 스킬 로더가 공통으로 인식하는 표준 파일명이므로, 이 이름을 그대로 유지해야 자동 인식 도구에서 스킬로 인식됩니다. 어떤 AI 도구를 쓰든 이 문서 하나만 지침으로 붙여넣어도 됩니다.
 
 ## Claude / Claude Code
 
@@ -9,7 +9,7 @@
 
 ## ChatGPT
 
-- **Custom GPT**: GPT 빌더의 "Instructions" 필드에 `tdd-developer.md` 전체 내용을 붙여넣습니다.
+- **Custom GPT**: GPT 빌더의 "Instructions" 필드에 `SKILL.md` 전체 내용을 붙여넣습니다.
 - **Projects/Custom Instructions**: 설정의 "Custom instructions" 또는 프로젝트 지침에 붙여넣으면 해당 대화/프로젝트 내내 적용됩니다.
 - **단발성 사용**: 대화 맨 처음 메시지로 파일 내용을 붙여넣고 "이 지침에 따라 TDD로 개발해줘"라고 요청합니다.
 
@@ -21,4 +21,4 @@
 ## 기타 에이전트 (Cursor, Copilot Chat 등)
 
 - 대부분 프로젝트 규칙 파일(예: `.cursorrules`, `AGENTS.md` 등)에 이 문서 내용을 포함시키면 됩니다.
-- 코드 실행 도구가 없는 환경이면 문서의 "에이전트 환경별 적용 가이드" 절을 참고해, 사이클마다 사용자에게 테스트 실행 결과를 확인받는 방식으로 진행합니다.
+- 코드 실행 도구가 없는 환경이면 문서의 "실행 환경에 따른 적용 가이드" 절을 참고해, 사이클마다 사용자에게 테스트 실행 결과를 확인받는 방식으로 진행합니다.
